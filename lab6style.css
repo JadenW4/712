@@ -1,0 +1,40 @@
+*{box-sizing: border-box;} /*preserve the 100% width of the*/
+img{width: 100%}
+.header{
+    background-color: aqua;
+    display: flex;
+}
+.logo{
+    width: 10%;
+    border: solid red 1px;
+    padding: 1em;
+}
+.title{
+    width: 50%;
+    border: solid blue 1px;
+    text-align: center;
+    padding: 1em;
+    font-size: 2.5em;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium';
+}
+.quicklinks{
+    display: inline-block;
+    width: 40%;
+    border: solid green 1px;
+    margin-left: auto;
+    text-align: right;
+    padding: 1.2em 0.2em;
+    text-decoration: none;
+
+}
+.quicklinks{
+    width: 20;
+    font-size: 1.5em;
+    margin-left: auto;
+    display: flex;
+}
+.quicklinks a:hover{
+    opacity: 0.6;
+    transform: scale(1.05);
+}
