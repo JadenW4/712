@@ -1,0 +1,112 @@
+*{box-sizing: border-box;} /*preserve the 100% width of the*/
+img{width: 100%; display:block;}
+.header{
+    background-color: aqua;
+    display: flex;
+}
+.logo{
+    width: 7%;
+    border: solid red 1px;
+    padding: 1em;
+}
+.title{
+    width: 50%;
+    border: solid blue 1px;
+    text-align: center;
+    padding: 1em;
+    font-size: 2.5em;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium';
+}
+.quicklinks{
+    display: inline-block;
+    width: 40%;
+    border: solid green 1px;
+    margin-left: auto;
+    text-align: right;
+    padding: 1.2em 0.2em;
+    text-decoration: none;
+
+}
+.quicklinks{
+    width: 20;
+    font-size: 1.5em;
+    margin-left: auto;
+    display: flex;
+}
+.quicklinks a:hover{
+    opacity: 0.6;
+    transform: scale(1.05);
+}
+/* CARDS */
+.subtitle{
+    text-align: center;
+}
+.cardscontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card, .verticalcard{
+    height:auto;
+    width: 400px;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1% 2%;
+}
+.card img{
+    height: 250px;
+}
+.card p{
+    padding: 1em;
+}
+.card a{
+    display: block;
+    background: darkblue;
+    padding: 1em;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: none;
+}
+.card a:hover{
+    opacity: 0.6;
+    font-size: 1.05em;
+}
+.verticalcard{
+    position: relative;
+    transition: ease-in-out 200ms;
+}
+.verticalcard h3{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+.verticalcard:hover{
+    transform: translateY(-20);
+    box-shadow: 0px -5px 10px gray;
+}
+.verticalcard:hover .h3card{
+    color: crimson;
+}
+.verticalcard:hover .imgvertical{
+    filter: blur(3px);
+}
+.linkcard{
+    margin: 2%;
+    display: block;
+    width: 400px;
+}
+/* FOOTER */
+.footer{
+    margin-top: 2em;
+    text-align: center;
+    background-color: darkblue;
+    color: azure;
+    padding: 3em;
+}
