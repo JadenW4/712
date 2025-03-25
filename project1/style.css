@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    background-color: rgb(107, 107, 221);
+    transition: color;
+   
+}
+h1:hover{
+    background-color: red;
+}
+
