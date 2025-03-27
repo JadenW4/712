@@ -7,15 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <h1>BACK 2 SCHOOL, RULES!</h1>
 <img class="logo" src="images/back2school.jpg">
 
-<h2>interactive section</h2>
+<h2>Interactive Section</h2>
+
 <section class="maincontainer">
-    <img class="gallery img" src="images/backpack.jpg">
-    <img class="gallery img" src="images/math.png">
-    <img class="gallery img" src="images/game.png">
+    <div class="image-container">
+        <img class="gallery img" src="images/backpack.jpg" alt="Backpack">
+        <p>Backpack</p>
+    </div>
+    <div class="image-container">
+        <img class="gallery img" src="images/math.png" alt="Math">
+        <p>Math</p>
+    </div>
+    <div class="image-container">
+        <img class="gallery img" src="images/game.png" alt="Game">
+        <p>Game</p>
+    </div>
 </section>
-    
-</section>
+
+<button class="scroll-to-top" onclick="scrollToTop()">Back to Top</button>
+
+<script>
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
+
 </body>
+</html>
