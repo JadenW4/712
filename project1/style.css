@@ -7,4 +7,31 @@ h1{
 h1:hover{
     background-color: red;
 }
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scroll-to-top:hover {
+    background-color: #45a049;
+}
+
+.image-container {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+}
 
