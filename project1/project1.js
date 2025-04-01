@@ -1,12 +1,6 @@
-/* Jaden Wiltshires project */
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-}
+/* Project 1 */
 function playSound(soundFile) {
-    var audio = new Audio(`sounds/${button}`);
+    var audio = new Audio(`sounds/${soundFile}`); 
     audio.play();
 }
 
@@ -15,7 +9,7 @@ function scrollToTop() {
         top: 0,
         behavior: 'smooth'
     });
-    playSound('button-click.mp3'); 
+    playSound('button-click.mp3');
 }
 
 function imageClicked(imageName) {
