@@ -8,29 +8,44 @@
 </head>
 <body>
 
-<h1>BACK 2 SCHOOL, RULES!</h1>
-<img class="logo" src="images/back2school.jpg">
+    <h1>🎉 BACK 2 SCHOOL, RULES! 🎒</h1>
+    <img class="logo" src="images/back2school.jpg" alt="Back to School" />
 
-<h2>Interactive Section</h2>
+    <h2>🎨 Let's Explore Fun Learning Activities!</h2>
 
-<section class="maincontainer">
-    <div class="image-container">
-        <img class="gallery img" src="images/backpack.jpg" alt="Backpack">
-        <p>Backpack</p>
-    </div>
-    <div class="image-container">
-        <img class="gallery img" src="images/math.png" alt="Math">
-        <p>Math</p>
-    </div>
-    <div class="image-container">
-        <img class="gallery img" src="images/game.png" alt="Game">
-        <p>Game</p>
-    </div>
-</section>
+    <section class="maincontainer">
+        <div class="image-container" onclick="playButtonSound('backpack-click-sound.mp3')">
+            <a href="#backpackSection">
+                <img class="gallery img" src="images/backpack.jpg" alt="Backpack">
+                <div class="image-text">🎒 Enjoy your backpack! 🏫</div>
+            </a>
+        </div>
+        <div class="image-container" onclick="playButtonSound('math-click-sound.mp3')">
+            <a href="#mathSection">
+                <img class="gallery img" src="images/math.jpg" alt="Math">
+                <div class="image-text">🔢 Enjoy your math game! 💡</div>
+            </a>
+        </div>
+        <div class="image-container" konclic="playButtonSound('game-click-sound.mp3')">
+            <a href="#gameSection">
+                <img class="gallery img" src="images/game.png" alt="Game">
+                <div class="image-text">🎮 Enjoy your game! 🏆</div>
+            </a>
+        </div>
+    </section>
 
-<button class="scroll-to-top" onclick="scrollToTop()">Back to Top</button>
+    <!-- Scroll to Top Button -->
+    <a href="#top">
+        <button class="scroll-to-top" onclick="playButtonSound('scroll-top-sound.mp3')">⬆️ Back to Top! ⬆️</button>
+    </a>
 
-<script src="script.js"></script>
+    <!-- Footer -->
+    <footer>
+        <p>Made with ❤️ for kids! &copy; 2025 Fun Learning.</p>
+        <p>Powered by Creative Minds 🌟</p>
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
